@@ -1,10 +1,10 @@
-export const Post = ({post}) => {
+export const PostCard = ({post}) => {
     
     return (
         <div className='post'>
             <img src={post.cover} alt={post.title} />
             <div className='post-content'>
-                <h1>{post.title}</h1>
+                <h3>{post.title}</h3>
                 <p>{post.body}</p>
             </div>
         </div>
