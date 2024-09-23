@@ -2,6 +2,8 @@ import './styles.css'
 import { Component } from 'react';
 import { loadPosts } from '../Utils/loadPosts';
 import { Posts } from '../Components/Posts';
+
+
 //import { StaticImg } from '../Components/StaticImg';
 
 export class Home extends Component{
