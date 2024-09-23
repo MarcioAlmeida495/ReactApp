@@ -1,8 +1,7 @@
 
 
 export const StaticImg = ({directory}) => {
-    console.log(directory)
     return (
-        <img src={directory} alt="Comoda" />
+        <img className="StaticImg" src={directory} alt="Comoda" />
     )
 }

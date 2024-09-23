@@ -26,7 +26,7 @@ class App extends Component{
     const { posts } = this.state;
     return(
       <section className='container'>
-         <StaticImg  directory="public/imgcomoda.jpg" />
+         <StaticImg  directory="/imgcomoda.jpg" />
          <Posts posts={ posts }></Posts>
       </section>
     );
