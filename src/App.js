@@ -2,7 +2,7 @@ import './App.css';
 import { Component } from 'react';
 import { loadPosts } from './Utils/loadPosts';
 import { Posts } from './Components/Posts';
-
+import { StaticImg } from './Components/StaticImg';
 class App extends Component{
   
   state = {
@@ -26,6 +26,7 @@ class App extends Component{
     const { posts } = this.state;
     return(
       <section className='container'>
+         <StaticImg  directory="public/imgcomoda.jpg" />
          <Posts posts={ posts }></Posts>
       </section>
     );
