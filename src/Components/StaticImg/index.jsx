@@ -1,7 +1,7 @@
+const directory = 'imgcomoda.jpg'
 
-
-export const StaticImg = ({directory}) => {
+export const StaticImg = () => {
     return (
-        <img className="StaticImg" src={directory} alt="Comoda" />
+        <img  className="StaticImg" src={directory} alt="Comoda" />
     )
 }

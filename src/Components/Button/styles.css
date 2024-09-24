@@ -1,0 +1,13 @@
+.myButton{
+    padding: 20px;
+    background-color: rgb(71, 173, 76);
+    color: white;
+    border: none;
+    margin: 20px auto;
+    transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+.myButton:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: rgb(30, 75, 60);
+}
