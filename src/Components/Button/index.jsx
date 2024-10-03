@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './styles.css'
 
+
 export class Button extends Component{
     render() {
         const {onClick, text} = this.props;
